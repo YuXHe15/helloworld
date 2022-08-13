@@ -60,8 +60,8 @@ void RandomAry(int *p, int n, int m, int b, int e)
 
 float DetCal (int *h, int m)
 {
-	
-
+	int D;
+	return D;
 }
 
 int perm(int *a, int m)
