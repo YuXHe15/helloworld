@@ -10,18 +10,16 @@ int main()
 	int *p = a[0];
 	int e = 10;
 	int b = 1;
-	int ls[m]{};
+	int ls[m]{1, 3, 2, 4};
 	int lr[m][m]{};
-	for(int i = 0; i < m; i ++)
-	{
-		ls[i] = i + 1;
-		i +=1;
-	}
+	
 	//bool DetCal(float x);
 	void RandomAry(int *p, int n, int m, int b, int e);
+	bool OaED(int *b, int m);
 	RandomAry(p, n, m, b, e);
+	bool An = OaED(ls, m);
 	//float C = DetCal(D);
-	cout << a[0][3];
+	cout << An;
 	return 0;
 }
 
