@@ -14,7 +14,7 @@ void DispCout(int a);
 int main()
 {
 
-	int m = 8;
+	int m = 4;
     int n = m;
 	int a[n][m]{};
 	int *p = a[0];
